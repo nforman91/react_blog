@@ -17,13 +17,14 @@ export default function Home() {
   }, []);
 
   return (
-    <StyledHome>
-    <Header/>
-    <div className="home">
-        <Posts posts={posts}/>
-        <Sidebar/>
-    </div>
-    </StyledHome>
+    <>
+        <Header/>
+        <StyledHome>
+        
+            <Posts posts={posts}/>
+            <Sidebar/>
+        </StyledHome>
+    </>
   )
 }
 
