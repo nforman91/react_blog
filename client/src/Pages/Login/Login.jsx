@@ -33,7 +33,7 @@ const StyledLoginTitle = styled.span`
     font-size: 50px;
 `
 
-const StyledLoginForm = styled.div`
+const StyledLoginForm = styled.form`
     margin-top: 20px;
     display: flex;
     flex-direction: column;
