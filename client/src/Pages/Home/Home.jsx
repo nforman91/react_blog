@@ -20,7 +20,6 @@ export default function Home() {
     <>
         <Header/>
         <StyledHome>
-        
             <Posts posts={posts}/>
             <Sidebar/>
         </StyledHome>
