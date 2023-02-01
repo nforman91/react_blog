@@ -36,6 +36,6 @@ app.use("/api/users", usersRoute);
 app.use("/api/posts", postsRoute);
 app.use("/api/categories", categoriesRoute);
 
-app.listen("8000", () => {
+app.listen("5000", () => {
     console.log("Backend is running.")
 });
